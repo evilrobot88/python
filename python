@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+'''
+def max(*args):
+	args=sorted(args)
+	a=args[-1]
+	for n in args[:-1]:
+		if n > a:
+		   return n 
+		else:
+		    return a
+
+
+print(max(1,6,2,34,5))
+'''
+
