@@ -40,3 +40,16 @@ def gcd(a,b):
 print(gcd(10,3)) 
 '''
 
+l = [6,5,20, 3, 0, 100]
+def buble(x):
+	n=1
+	while n < len(x):
+		for el in range(len(x)-n):
+			if x[el] > x[el+1]:
+				x[el],x[el+1]=x[el+1],x[el]
+		n+=1
+	return x
+		
+
+
+print(buble(l))   
